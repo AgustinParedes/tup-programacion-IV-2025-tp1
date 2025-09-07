@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-2",
+  "version": "1.0.0",
+  "description": "Ejercicio 2 TP1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js"
+  },
+  "author": "Agustin Paredes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

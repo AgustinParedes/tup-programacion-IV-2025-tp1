@@ -1,0 +1,30 @@
+### Consultar todos los alumnos
+GET http://localhost:3000/alumnos
+
+
+### Consultar un alumno
+GET http://localhost:3000/alumnos/vanesa
+
+
+### Crear un alumno
+POST http://localhost:3000/alumnos
+Content-Type: application/json
+
+{
+  "nombre": "laura",
+  "nota1": 7,
+  "nota2": 3,
+  "nota3": 7
+}
+
+
+### Modificar alumno (cambiar nombre y notas)
+PUT http://localhost:3000/alumnos/carlos
+Content-Type: application/json
+
+{
+  "nuevoNombre": "Juan Perez",
+  "nota1": 9,
+  "nota2": 8,
+  "nota3": 7
+}
