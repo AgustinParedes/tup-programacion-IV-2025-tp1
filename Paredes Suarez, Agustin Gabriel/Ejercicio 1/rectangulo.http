@@ -1,0 +1,26 @@
+@url=http://localhost:3000
+
+### Estado de la API
+GET {{url}}/
+
+### Listado completo
+GET {{url}}/calculos
+
+### Crear cálculo
+POST {{url}}/calcular
+Content-Type: application/json
+
+{
+  "base": 4,
+  "altura": 6
+}
+
+
+### Errores: body inválido
+POST {{url}}/rectangulos
+Content-Type: application/json
+
+{
+  "base": -3,
+  "altura": "abc"
+}
